@@ -1,7 +1,7 @@
 // Initialize the map
 const map = new maplibregl.Map({
   container: 'map', // container id
-  style: 'https://api.maptiler.com/maps/openstreetmap/style.json?key=rrrNspMMEz83yhrq7h19', // Replace with your API key
+  style: 'https://api.maptiler.com/maps/satellite/?key=rrrNspMMEz83yhrq7h19#0.7/-4.87122/-2.58852', // Replace with your API key
   center: [100.5018, 13.7563], // Starting position [lng, lat]
   zoom: 5 // Starting zoom level
 });
